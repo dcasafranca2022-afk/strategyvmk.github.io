@@ -66,13 +66,28 @@ html{scroll-behavior:smooth}
 }
 </style>
 
+
+<style>
+.nav-products{position:relative;display:flex;align-items:center}.nav-products-toggle{white-space:nowrap}.products-dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%) translateY(12px);width:280px;padding:12px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 18px 42px rgba(2,18,40,.18);opacity:0;visibility:hidden;transition:.2s;z-index:1000}.nav-products:hover .products-dropdown,.nav-products:focus-within .products-dropdown{opacity:1;visibility:visible;transform:translateX(-50%) translateY(4px)}.products-dropdown a{display:block!important;padding:10px 12px!important;border-radius:9px;font-size:.93rem!important;color:#0b2e4c!important}.products-dropdown a:hover{background:#f7e8f1;color:#c30d68!important}
+.category-link a{display:block;color:inherit;text-decoration:none}.category-link p{margin:.35rem 0 0;font-size:.92rem!important;line-height:1.4!important}.category-link img{height:245px!important;object-fit:cover!important}.category-link:hover{transform:translateY(-6px);box-shadow:0 18px 42px rgba(2,18,40,.17)}
+@media(max-width:900px){.nav-products{display:block}.products-dropdown{position:static;transform:none;width:auto;box-shadow:none;border:0;padding:0 0 0 14px;opacity:1;visibility:visible;display:none}.nav-products.open .products-dropdown{display:block}.nav-products:hover .products-dropdown{transform:none}.products-dropdown a{padding:7px 0!important}}
+</style>
 </head>
 <body>
-<div class="topbar"><div class="container topbar-inner"><span>Agencia BTL y Marketing Outsourcing · Lima, Perú</span><div><a href="tel:+51997164811">997 164 811</a><i>·</i><a href="mailto:vcanassa@gmail.com">vcanassa@gmail.com</a></div></div></div>
+<div class="topbar"><div class="container topbar-inner"><span>Agencia BTL y Marketing Outsourcing · Lima, Perú</span><div><a href="tel:+51997164811">997 164 811</a><i>·</i><a href="mailto:vcarassa@gmail.com">vcarassa@gmail.com</a></div></div></div>
 <header class="header"><div class="container nav-wrap">
 <a class="brand" href="#inicio"><img src="assets/img/strategy-vmk-logo.png" alt="Strategy VMK"><div><strong>Strategy VMK</strong><span>Agencia integral BTL</span></div></a>
 <button class="menu-btn" aria-label="Abrir menú">☰</button>
-<nav><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#portafolio">Portafolio</a><a href="#productos">Productos</a><a href="#proceso">Cómo trabajamos</a><a href="#contacto">Contacto</a></nav>
+<nav><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#portafolio">Portafolio</a><div class="nav-products"><a href="#productos" class="nav-products-toggle">Productos ▾</a><div class="products-dropdown">
+<a href="#productos">Ver todas las categorías</a>
+<a href="resaltadores.html">Resaltadores</a>
+<a href="taco-post-it.html">Taco con Post-it</a>
+<a href="articulos-antiestres.html">Artículos antiestrés</a>
+<a href="llaveros.html">Llaveros</a>
+<a href="articulos-playa.html">Artículos de playa</a>
+<a href="articulos-personales.html">Artículos personales</a>
+<a href="articulos-escritorio.html">Artículos de escritorio</a>
+</div></div><a href="#proceso">Cómo trabajamos</a><a href="#contacto">Contacto</a></nav>
 <button class="btn btn-dark open-assistant">Solicitar propuesta</button>
 </div></header>
 <main>
@@ -116,6 +131,14 @@ html{scroll-behavior:smooth}
 <article><img src="assets/img/articulos-promocionales.jpg" alt="Artículos promocionales personalizados"><div><span>Promocionales</span><h3>Artículos promocionales</h3></div></article>
 <article><img src="assets/img/accesorios-tecnologicos.jpg" alt="Accesorios tecnológicos personalizados"><div><span>Tecnología</span><h3>Accesorios tecnológicos</h3></div></article>
 <article><img src="assets/img/material-pop-merchandising.jpg" alt="Material POP y merchandising"><div><span>Merch &amp; POP</span><h3>Material POP y merchandising</h3></div></article>
+<article class="category-link"><a href="resaltadores.html"><img src="assets/img/resaltadores.jpg" alt="Resaltadores promocionales"><div><span>Promocionales</span><h3>Resaltadores</h3><p>Diseños creativos, ecológicos y personalizados.</p></div></a></article>
+<article class="category-link"><a href="taco-post-it.html"><img src="assets/img/post-it.jpg" alt="Tacos con notas Post-it"><div><span>Organización</span><h3>Taco con Post-it</h3><p>Notas adhesivas y organizadores corporativos.</p></div></a></article>
+<article class="category-link"><a href="articulos-antiestres.html"><img src="assets/img/antiestres.jpg" alt="Artículos antiestrés"><div><span>Bienestar</span><h3>Artículos antiestrés</h3><p>Opciones lúdicas para campañas y activaciones.</p></div></a></article>
+<article class="category-link"><a href="llaveros.html"><img src="assets/img/llaveros.jpg" alt="Llaveros promocionales"><div><span>Uso diario</span><h3>Llaveros</h3><p>Modelos metálicos, sublimables y personalizados.</p></div></a></article>
+<article class="category-link"><a href="articulos-playa.html"><img src="assets/img/playa.jpg" alt="Artículos de playa"><div><span>Temporada</span><h3>Artículos de playa</h3><p>Accesorios para verano y campañas al aire libre.</p></div></a></article>
+<article class="category-link"><a href="articulos-personales.html"><img src="assets/img/personales.jpg" alt="Artículos personales"><div><span>Bienestar</span><h3>Artículos personales</h3><p>Accesorios prácticos para uso cotidiano.</p></div></a></article>
+<article class="category-link"><a href="articulos-escritorio.html"><img src="assets/img/escritorio.jpg" alt="Artículos de escritorio"><div><span>Oficina</span><h3>Artículos de escritorio</h3><p>Soluciones funcionales para reforzar su marca.</p></div></a></article>
+
 </div>
 <div class="center"><button class="btn btn-dark catalog-btn open-assistant"><span class="catalog-icon">▣</span> Solicitar catálogo o cotización</button></div>
 <div class="benefit-band">
@@ -169,7 +192,7 @@ html{scroll-behavior:smooth}
 <footer><div class="container footer-inner"><div class="js-home-brand brand footer-brand"><img src="assets/img/strategy-vmk-logo.png" alt="Strategy VMK"><div><strong>Strategy VMK</strong><span>Agencia integral BTL</span></div></div><p>© 2026 VMK ESTRATEGY E.I.R.L. · RUC 20600141521. Todos los derechos reservados.</p><a href="#inicio">Volver arriba ↑</a></div>
 </footer>
 <button class="wa open-assistant" aria-label="Solicitar propuesta por WhatsApp">WA</button>
-<div class="modal" id="assistant" aria-hidden="true"><div class="modal-card"><button class="close" aria-label="Cerrar">×</button><p class="eyebrow dark">ASISTENTE COMERCIAL</p><h2>Solicite una propuesta</h2><p>Complete estos datos y generaremos un mensaje organizado para WhatsApp.</p><form id="quoteForm"><label>Nombre y apellido<input name="nombre" required></label><label>Empresa<input name="empresa"></label><label>Servicio<select name="servicio" required><option value="">Seleccione</option><option>Activación BTL</option><option>Trade Marketing</option><option>Personal promocional</option><option>Evento corporativo</option><option>Merchandising</option><option>Pendrives personalizables</option><option>Accesorios tecnológicos</option><option>Material POP</option><option>Producción gráfica</option><option>Otro requerimiento</option></select></label><label>Ciudad<input name="ciudad" value="Lima"></label><label>Cuéntenos brevemente qué necesita<textarea name="detalle" rows="4" required></textarea></label><button class="btn btn-accent" type="submit">Continuar por WhatsApp</button></form></div></div>
+<div class="modal" id="assistant" aria-hidden="true"><div class="modal-card"><button class="close" aria-label="Cerrar">×</button><p class="eyebrow dark">ASISTENTE COMERCIAL</p><h2>Solicite una propuesta</h2><p>Complete estos datos y generaremos un mensaje organizado para WhatsApp.</p><form id="quoteForm"><label>Nombre y apellido<input name="nombre" required></label><label>Empresa<input name="empresa"></label><label>Servicio<select name="servicio" required><option value="">Seleccione</option><option>Activación BTL</option><option>Trade Marketing</option><option>Personal promocional</option><option>Evento corporativo</option><option>Merchandising</option><option>Resaltadores</option><option>Taco con Post-it</option><option>Artículos antiestrés</option><option>Llaveros</option><option>Artículos de playa</option><option>Artículos personales</option><option>Artículos de escritorio</option><option>Pendrives personalizables</option><option>Accesorios tecnológicos</option><option>Material POP</option><option>Producción gráfica</option><option>Otro requerimiento</option></select></label><label>Ciudad<input name="ciudad" value="Lima"></label><label>Cuéntenos brevemente qué necesita<textarea name="detalle" rows="4" required></textarea></label><button class="btn btn-accent" type="submit">Continuar por WhatsApp</button></form></div></div>
 <script src="assets/js/app.js"></script>
 <button id="backToTop" class="back-to-top" type="button" aria-label="Volver al inicio" title="Volver al inicio">↑</button>
 
