@@ -1,17 +1,17 @@
-STRATEGY VMK — WEB V8.0 CATÁLOGO CORPORATIVO PREMIUM
+STRATEGY VMK — WEB V8.1 CATÁLOGO CORREGIDO
 
-Base: V7.1 aprobada.
+Esta versión corrige la presentación del catálogo de productos.
 
-Novedades:
-- Menú desplegable de Productos.
-- Nuevas categorías: Resaltadores, Taco con Post-it, Artículos antiestrés, Llaveros, Artículos de playa, Artículos personales y Artículos de escritorio.
-- Página independiente para cada nueva categoría.
-- Botón de cotización por WhatsApp en cada categoría.
-- Nuevas opciones incorporadas al formulario comercial.
-- Se mantiene el encabezado y navegación aprobados.
+Cambios:
+- El botón “Productos” vuelve a dirigir directamente a la sección de productos.
+- Se eliminó el menú desplegable automático del encabezado.
+- Las nuevas categorías se presentan como tarjetas con fotografía representativa y descripción.
+- Se eliminaron de la vista principal las capturas de tablas del catálogo.
+- Las tablas detalladas por código y descripción quedan reservadas para una futura versión.
+- Se conserva el diseño corporativo, la navegación y la sección de contacto aprobados.
 
 Publicación:
 1. Descomprima el ZIP.
-2. Reemplace el contenido del repositorio local.
-3. Commit to main.
-4. Push origin.
+2. Reemplace los archivos del repositorio local strategyvmk.github.io.
+3. Realice Commit to main.
+4. Luego seleccione Push origin.
